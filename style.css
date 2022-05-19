@@ -1,0 +1,16 @@
+:root{
+    --main-color:;
+    --backgroud-color:;
+
+}
+html{
+    scroll-behavior: smooth;
+
+}
+
+footer{
+
+}
+footer img{
+    width: 25px;
+}
