@@ -8,10 +8,15 @@
 }
 html{
     scroll-behavior: smooth;
+
+}
+body{
+
 }
 header{
     display: flex;
-    align-items: column;
+    color: #6c757d;
+
 }
 
 footer a{
