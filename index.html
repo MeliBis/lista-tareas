@@ -8,23 +8,30 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./assets/icu.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 <body>
-    <header>
+    <header class="container-fluid d-flex justify-content-center">
         <img src="./assets/isotipo-nav.png" alt="icono 'i code you'">
-        <h1>I code you</h1>
+        <div>
+            <h1>I code you</h1>
+        </div>
     </header>
 
     <!--==================== seccion1 ================== -->
-    <main  id="main col-{breakpoint}-auto" >
+    <main class="container">
+        <div class="main textos-main fixed-top" id="main-one " >
+
+        </div>
 
     <section>
         <div>
             <h2>Gracias por elegirnos</h2>
             <p>En i code you, tenemos la misión de ayudarte a mejorar tus conocimientos profesionales ofreciendo por tu suscripción los links a escuelas y universidades reconocidas internacionalmente y de gran prestigio, de manera gratuitas</p>
             <h3>¿Estás preparadx para descubrir nuevos mundos?</h3>
-            <button>Comenzar</button>
+            <button type="button" class="btn btn-secondary">Comenzar</button>
+
         </div>
     </section>
     <!--==================== /seccion1 ================== -->
@@ -34,7 +41,8 @@
         <div>
             <h2>Elige tu próximo tema de aprendizaje</h2>
             <!-- lista de opciones/ html o en js -->
-            <button>start <img src="" alt="icono estrella"></button>
+           <!--  <button >start <img src="" alt="icono estrella"></button> -->
+            
         </div>
     </section>
     <!--==================== /seccion2 ================== -->
@@ -73,14 +81,16 @@
         <p>&copy; 2022 Melissa Barrios <img class="footer-heart" src="./assets/favorito.png" alt="corazón"> &middot; 
           
           <a href="#" >Privacy</a> &middot; <a href="#">Terms</a></p>
-          <p class="float-end " ><a type="button" class="btn btn-danger" href="#">Inicio</a></p>
+          <p class="float-end " ><a type="button" class="btn btn-danger" href="#main-one">Inicio</a></p>
         </div>
       </footer>
 
-<!--====================   /footer   ================== -->
     </div>
+<!--====================   /footer   ================== -->
 <!--==================== javaScript ================== -->
     <script src="./app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    
+    
 </body>
 </html>

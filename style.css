@@ -1,16 +1,23 @@
+/* variables */
 :root{
-    --main-color:;
-    --backgroud-color:;
+    --main-color:#f6bbcf;
+    --second-color:#fbf4b8;
+    --backgroud-color:#f2f2f2;
+    --text-color:#6c757d;
 
 }
 html{
     scroll-behavior: smooth;
-
+}
+header{
+    display: flex;
+    align-items: column;
 }
 
-footer{
-
-}
+footer a{
+    text-decoration: none;
+    color: #fff;
+  }
 footer img{
     width: 25px;
 }
