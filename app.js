@@ -1,7 +1,7 @@
 const input = document.querySelector('input');
 const addBtn = document.querySelector('.btn-add');
 const ul = document.querySelector('ul');
-const empty = document.querySelector('.empty');
+const empty = document.querySelector('#empty');
 
 addBtn.addEventListener('click', (e) => {
     e.preventDefault();
@@ -18,14 +18,14 @@ addBtn.addEventListener('click', (e) => {
         ul.appendChild(li);
 
         input.value = '';
-        empty.style.display = 'none';
     }
 });
 
+empty.style.display = 'none';
 
-/* funtion */
 function addDeleteBtn() {
     const deleteBtn = document.createElement('button');
+    localStorage.actividad = document.getElementById('actividad').value;
 
     deleteBtn.textContent = "X";
     deleteBtn.className = "btn-delete";
