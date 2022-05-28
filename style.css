@@ -28,11 +28,6 @@ header{
   border: white;
   
 }
-/* .main-container:focus{
-  border: none;
-  outline: none;
-
-} */
 #btn-plus{
     width: 55px;
     height: 40px;
@@ -69,7 +64,7 @@ li p {
   .btn-delete {
     margin-left: auto;
     border: none;
-    background-color: #ed6988;
+    background-color: #dc4568;
     color: white;
     font-weight: bold;
     padding: 5px 10px;
@@ -82,7 +77,7 @@ li p {
     
   .btn-delete:hover {
     cursor: pointer;
-    background-color: lightseagreen;
+    background-color: #ed6988;;
   }
   
   .btn-add {
