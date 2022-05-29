@@ -23,10 +23,20 @@ addBtn.addEventListener('click', (e) => {
 
 empty.style.display = 'none';
 
+/* localstorage */
+let infoLocalStorage = 'actividad';
+let info = [];
+function guardar(){
+} 
+
+/* /localstorage */
+
 function addDeleteBtn() {
     const deleteBtn = document.createElement('button');
     localStorage.actividad = document.getElementById('actividad').value;
-
+    localStorage.setItem(infoLocalStorage, JSON.stringify(info));
+    info.push(document.getElementById("actividad").value);
+    
     deleteBtn.textContent = "X";
     deleteBtn.className = "btn-delete";
 
